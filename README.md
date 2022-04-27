@@ -1,6 +1,8 @@
 # Wagtail Soup
 
-A simple base project for new Wagtail websites. Still WIP and i'm an idiot at work, so use at your own risk.
+A simple base project for new Wagtail websites. 
+
+ATTENTION: This is still WIP. Changes are made on master for the moment.
 
 ## What's included
 
