@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
     - name: Collect static files because reasons
       run: |
-        python manage.py collectstatic
+        python manage.py collectstatic --noinput
     - name: Run Tests
       run: |
         python manage.py test
