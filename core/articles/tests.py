@@ -7,9 +7,9 @@ from core.articles.models import Article
 from home.models import HomePage
 
 
-class ArticleTests(WagtailPageTests):
+class ArticleTest(WagtailPageTests):
     def test_can_create_an_article(self):
-        root_page = HomePage.objects.get(pk=2)
+        root_page = HomePage.objects.get(slug='home')
 
         self.assertCanCreate(root_page, Article, nested_form_data({
             'title': 'Hello World',
