@@ -7,7 +7,7 @@ from wagtail.core.fields import RichTextField
 from wagtail.core.models import Page
 
 
-# Articles are meant to be used as basic pages.
+# Articles are meant to be used as basic pages like Imprint or About Us.
 # They're called "Articles", because "Page" is already taken by Wagtail and "BasePage" sounds dumb.
 class Article(Page):
     body = RichTextField()
